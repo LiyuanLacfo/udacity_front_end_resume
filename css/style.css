@@ -18,11 +18,14 @@ h6 {
   overflow: auto;
 }
 
+.online-entry,
 .education-entry,
 .work-entry,
 .project-entry {
-  padding: 0 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
 
 h1 {
   font-size: 40px;
@@ -91,6 +94,17 @@ a {
   margin-top: 10px;
   display: block;
 }
+
+#header a{
+  display: inline-block;
+  color: #FFF;
+}
+
+#footerContacts a{
+  display: inline-block;
+  color: #FFF;
+}
+
 
 .welcome-message {
   font-style: italic;
